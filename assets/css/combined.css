@@ -8155,3 +8155,7 @@ a:hover > .nk-icon-search:after {
     display: table;
     content: " ";
 }
+
+.panel-body .text-xs-left{
+    text-align: left !important;
+}
