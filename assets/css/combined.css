@@ -8159,3 +8159,8 @@ a:hover > .nk-icon-search:after {
 .panel-body .text-xs-left{
     text-align: left !important;
 }
+
+.marginhabennonsticken {
+    margin-right: 10%;
+    text-align: center;
+}
