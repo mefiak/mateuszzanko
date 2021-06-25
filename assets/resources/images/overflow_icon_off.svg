@@ -1,7 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="3" height="12" viewBox="0 0 3 12">
-    <g fill="#008DCB" fill-rule="evenodd">
-        <circle cx="1.5" cy="10.5" r="1.5"/>
-        <circle cx="1.5" cy="1.5" r="1.5"/>
-        <circle cx="1.5" cy="6" r="1.5"/>
-    </g>
-</svg>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5c8550b0502b1ff81ed8dbc9663faa69f46d5603fe8a5cc387e87d32f088507
+size 272
