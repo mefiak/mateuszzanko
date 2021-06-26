@@ -4755,11 +4755,15 @@ h4 {
     width: auto;
     max-width: 100%;
 }
+.nk-img-fit-2x-subpages{
+    width: 70%;
+}
 .nk-img-fit-15x {
-    height: calc(180x + 12vw);
+    height: calc(180px + 12vw);
     width: auto;
     max-width: 100%;
 }
+
 @media (max-width: 543px) {
     .nk-img-fit-xs-down {
         max-width: 100%;
