@@ -4758,9 +4758,7 @@ h4 {
 .nk-img-fit-2x-subpages{
     width: 70%;
 }
-.nk-img-full-size{
-    width: 90%;
-}
+
 .nk-img-fit-15x {
     height: calc(180px + 12vw);
     width: auto;
