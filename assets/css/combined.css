@@ -4334,7 +4334,7 @@ body {
 }
 .nk-main {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     z-index: 1;
     margin: auto;
 }
@@ -4756,7 +4756,7 @@ h4 {
     max-width: 100%;
 }
 .nk-img-fit-2x-subpages{
-    width: 70%;
+    width: 60%;
 }
 
 .nk-img-fit-15x {
@@ -6408,8 +6408,9 @@ nk-navbar .nk-navbar-white-text-on-top .nk-nav > li > a > span {
 }
 .nk-pagination {
     width: 100%;
-    background-color: #fff;
-    padding: 10px 10px;
+    background-color: transparent;
+    padding: 0px 0px;
+
 }
 .nk-descritpion {
     background-color: #fff;
@@ -8130,23 +8131,22 @@ a:hover > .nk-icon-search:after {
     padding-right: 0;
 }
 .overlay {
-    position: relative;
-    top: 90%;
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    text-align: center;
-    position: sticky;
     z-index: 1031;
     color: #0e0e0e;
 }
+
 .rectangle {
-    position: absolute;
+    float: right;
     min-width: 46px;
-    right: 0;
     text-align: center;
     width: 4vw;
     font-size: calc(12px + 2.5vw);
     line-height: 0;
     color: #0e0e0e;
+    float: right;
 }
 .fa-angle-double-up {
     position: relative;
