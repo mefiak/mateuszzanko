@@ -4756,7 +4756,8 @@ h4 {
     max-width: 100%;
 }
 .nk-img-fit-2x-subpages{
-    width: 60%;
+    width: 70%;
+    height: auto;
 }
 
 .nk-img-fit-15x {
