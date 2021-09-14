@@ -76,7 +76,7 @@
                         <li>
                             <a id="nav-bar-nohovering" style="padding-left: 0%;padding-right: 0%;" >|</a> 
                         </li>
-                        <li><a class="is-clicked" style="padding-left: 0%;" >PL</a></li>
+                        <li><a class="disabled-navbar-link" style="padding-left: 0%;" >PL</a></li>
                     </ul>
                     
 
@@ -153,70 +153,52 @@
         </div>
     </nav>
     <!-- END: Navbar Mobile -->
-    
-    <div class = "overlay">
-            <div class="nk-pagination  nk-pagination-right">
-            <a href="portfolio-single-automat-pl.html#start"> 
-                    <div class="rectangle">
-                        <i class="fas fa-angle-double-up"></i>
-                    </div>
-            </a>
-    
-            <div class="nk-main">
-                <!-- <div class="container">
-                    <div style="text-align: center;">
-                        <img class="nk-img-fit" src="assets/images/praca-licencjacka-big.gif">
-                    </div>
-                </div> -->
-    
-    
-                <!-- START: Pagination -->
-                        <div class="container">
-                                <a class="nk-pagination-prev" href="portfolio-single-meble-eng.html">
-                                        <span class="pe-7s-angle-left"></span> Previous Work</a>
-                                    <!-- <a target="_blank" class="portfolio-single-button-link " href="https://www.figma.com/proto/EqGmNrHxDKf3pGI1OSDnO7/ekoshop-przed-redisignem?node-id=0%3A18&viewport=940%2C500%2C0.08647539466619492&scaling=scale-down">
-                                        Before Redesign Link
-                                    </a>
-                                    <div class = "unclickable">=></div>
-                                    <a target="_blank" class="portfolio-single-button-link " href="https://q4b44d.axshare.com/">
-                                        After Redesign Link
-                                    </a> -->
-                                    <a class="nk-pagination-next" href="portfolio-single-ekoshop-eng.html">Next Work <span class="pe-7s-angle-right"></span> </a>
-                        </div>
-                    </div>
-    
-            <!-- END: Pagination -->
-            </div>
-        </div> 
+     
+
     <div class="nk-main">
+        <div class = "overlay">
+                <div class="nk-pagination  nk-pagination-right">
+                    <a href="portfolio-single-automat-pl.html#start"> 
+                            <div class="rectangle">
+                                <i class="fas fa-angle-double-up"></i>
+                            </div>
+                    </a>
+        
+                <div class="nk-main">
+                    <!-- <div class="container">
+                        <div style="text-align: center;">
+                            <img class="nk-img-fit" src="assets/images/praca-licencjacka-big.gif">
+                        </div>
+                    </div> -->
+        
+        
+                    <!-- START: Pagination -->
+                            <div class="container the-pagination">
+                                    <a class="nk-pagination-prev" id="nk-pagination-prev" href="portfolio-single-meble-eng.html">
+                                            <span class="pe-7s-angle-left"></span> Previous</a>
+                                        <!-- <a target="_blank" class="portfolio-single-button-link " href="https://www.figma.com/proto/EqGmNrHxDKf3pGI1OSDnO7/ekoshop-przed-redisignem?node-id=0%3A18&viewport=940%2C500%2C0.08647539466619492&scaling=scale-down">
+                                            Before Redesign Link
+                                        </a>
+                                        <div class = "unclickable">=></div>
+                                        <a target="_blank" class="portfolio-single-button-link " href="https://q4b44d.axshare.com/">
+                                            After Redesign Link
+                                        </a> -->
+                                        <a class="nk-pagination-next" id="nk-pagination-next" href="portfolio-single-biblioteka-eng.html">Next<span class="pe-7s-angle-right"></span> </a>
+                            </div>
+                        </div>
+        
+                <!-- END: Pagination -->
+                </div>
+            </div>
+
+    <div class="sections-single col-lg-8 offset-lg-2">
         <div class="container">
                 <a target="_blank" href="https://q4b44d.axshare.com/">
                     <div style="text-align: center;">
                         <img class="nk-img-fit"  src="assets/images/ekoshop-big.gif">
                     </div>
                 </a>
-        </div>
-
-
-                     <!-- START: Pagination -->
-                <!-- <div class="nk-pagination nk-pagination-center">
-                    <div class="container">
-                        <a class="nk-pagination-prev" href="portfolio-single-meble-eng.html">
-                            <span class="pe-7s-angle-left"></span> Previous Work</a>
-                        <a target="_blank" class="portfolio-single-button-link " href="https://www.figma.com/proto/EqGmNrHxDKf3pGI1OSDnO7/ekoshop-przed-redisignem?node-id=0%3A18&viewport=940%2C500%2C0.08647539466619492&scaling=scale-down">
-                            Before Redesign Link
-                        </a>
-                        <div class = "unclickable">=></div>
-                        <a target="_blank" class="portfolio-single-button-link " href="https://q4b44d.axshare.com/">
-                            After Redesign Link
-                        </a>
-                        <a class="nk-pagination-next" href="portfolio-single-ekoshop-eng.html">Next Work <span class="pe-7s-angle-right"></span> </a>
-                    </div>
-                </div> -->
-
-        <!-- END: Pagination -->
-
-        <div class="container nk-descritpion">        
+        </div>       
             <h1 class="nk-portfolio-title display-4" style="text-align: center;">Redesign of Eco Shop Website</h1>
                     <div class="row vertical-gap">
                         <div class="col-lg-11">
@@ -278,13 +260,18 @@
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="panel-body">
                             <p class="text-xs-left">
-                                <div style="text-align: center;">
-                                    <img class="nk-img-fit"  src="assets/images/ekoshop-persona.JPG">
-                                </div><br>
+                                <a href="assets/images/ekoshop-persona.pdf">
+                                    <div style="text-align: center;">
+                                        <img class="nk-img-fit"  src="assets/images/ekoshop-persona.JPG">
+                                    </div>
+                                <h4>View pdf</h4>
+                                </a>
+                                <br>
                             </p> 
                         </div>
                     </div>
                 </div>
+
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingThree">
                         <h4 class="panel-title">
@@ -428,27 +415,25 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
-    </div>    
-    <div id="contact">
-        <div class="nk-gap-4 mt-3"></div><div class="nk-gap-5"></div>
-        
-            <!--START: Footer-->  
-            
-            <footer class="nk-footer">
+        </div> 
+    </div>
+    <!--START: Footer-->  
+    <!-- zrobione po to, żeby contact w nawigacji odpowiednio się zapalał :>-->
+    <div class="container" >
+    </div>
+            <footer class="nk-footer" id="contact">
                 <div class="nk-footer-cont">
-                    
                     <!-- <div class="nk-gap-5"></div> -->
                     <!-- <div class="row vertical-gap"> -->
                     <div class="col-lg-5" >
                         <!-- START: Info -->
                         <h2 class="display-4 nk-contact-info" >Contact Info:</h2>
                         <!-- <div class="nk-gap mnt-3"></div> -->
-        
+
                         <ul class="nk-contact-info">
                             <li>
-                                <strong>Address:</strong> Poland, Lubelskie, Zamość,
+                                <strong>Address:</strong> Zamość, Lubelskie
                             </li>
                             <li>
                                 <strong>Phone:</strong> +48 664 689 101
@@ -458,12 +443,13 @@
                             </li>
                             
                         </ul>
+                        
                         <!-- END: Info -->
                     </div>
                         
 
                 
-                        <div class="container text-xs-center">
+                     <div class="container text-xs-center">
                         <div class="nk-footer-social">
                             <ul>
                                 <li><a href="https://www.linkedin.com/in/mateusz-za%C5%84ko-64189a192/"><i class="fab fa-linkedin"></i></a></li>
@@ -481,8 +467,6 @@
                 </div>
             </footer>
             <!-- END: Footer -->
-    </div>
-</div>
 
 
 

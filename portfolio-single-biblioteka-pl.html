@@ -28,6 +28,9 @@
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
     <!-- START: Styles -->
+                <!-- arrows in dropdown text -->
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
     <!-- Linkedin script link -->
     <script src="https://kit.fontawesome.com/5d35afed33.js" crossorigin="anonymous"></script>
@@ -156,7 +159,10 @@
         </div>
     </nav>
     <!-- END: Navbar Mobile -->
-    
+
+
+    <div class="nk-main">
+
     <div class = "overlay">
             <div class="nk-pagination  nk-pagination-right">
             <a href="portfolio-single-automat-pl.html#start"> 
@@ -174,20 +180,20 @@
                 
     
                 <!-- START: Pagination -->
-                    <div class="container">
-                            <a class="nk-pagination-prev" href="portfolio-single-ekoshop-pl.html">
-                                    <span class="pe-7s-angle-left"></span> Wcześniejsza Praca</a>
+                    <div class="container the-pagination">
+                            <a class="nk-pagination-prev" id="nk-pagination-prev" href="portfolio-single-ekoshop-pl.html">
+                                    <span class="pe-7s-angle-left"></span> Poprzedni</a>
                                 <!-- <a target="_blank" class="portfolio-single-button-link " href="https://532h5x.axshare.com/">
                                     Link Do Prototypu
                                 </a> -->
-                                <a class="nk-pagination-next" href="portfolio-single-automat-pl.html">Następna Praca <span class="pe-7s-angle-right"></span> </a>
-                                </div>
+                                <a class="nk-pagination-next" id="nk-pagination-next" href="portfolio-single-automat-pl.html">Następny <span class="pe-7s-angle-right"></span> </a>
                     </div>
-                </div>
+            </div>
+
                 <!-- END: Pagination -->
             </div>
         </div>    
-    <div class="nk-main"style=" left:0; right:2">
+        <div class="sections-single col-lg-8 offset-lg-2">
         <div class="container">
                     <a target="_blank" href="https://532h5x.axshare.com/">
                     <div style="text-align: center;">
@@ -196,26 +202,11 @@
                     </a>
         </div>
 
-            <!-- START: Pagination -->
-        <!-- <div class="nk-pagination nk-pagination-center">
-            <div class="container">
-
-                <a class="nk-pagination-prev" href="portfolio-single-ekoshop-pl.html">
-                    <span class="pe-7s-angle-left"></span> Wcześniejsza Praca</a>
-                <a target="_blank" class="portfolio-single-button-link " href="https://532h5x.axshare.com/">
-                    Link Do Prototypu
-                </a>
-                <a class="nk-pagination-next" href="portfolio-single-automat-pl.html">Następna Praca <span class="pe-7s-angle-right"></span> </a>
-                </div>
-        </div> -->
-        <!-- END: Pagination -->
-        <div class="container nk-descritpion">
-
             <h1 class="nk-portfolio-title display-4" style="text-align: center;">Landing Page Biblioteki z Rejestracją.</h1>
             <div class="row vertical-gap">
-                <div class="col-md-8">
+                <div class="col-lg-11">
                     <div class="nk-portfolio-info">
-                        <div class="nk-portfolio-text">
+                        <div class="nk-portfolio-text col-lg-8">
                             <h3 class="dispay-5">O PROTOTYPIE</h3>
                             <p> 
                                 Landing Page z rejestracją ostał stworzony w ramach ćwiczenia i poszerzenia swojego     portfolio. Przedstawiony interfejs jest iwyłącznie Landing Page-em - nie zawiera żadnych innych podstron, ani możliwości logowania. Interfejs jest responsywny - stworzyłem wersje aplikacji webowej na telefon iPhone 8 oraz wersje przeglądarki internetowej na ekran wielkości 1366 x 768.<br>
@@ -241,8 +232,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 float-right">
                         <!-- zrobione po to, żeby contact w nawigacji odpowiednio się zapalał :>-->
 
                         <table class="nk-portfolio-details" >
@@ -270,12 +260,10 @@
                             </tr> -->
                         </table>
                     </div>
-                    <div class="container" id="contact">
-                        <div class="nk-gap-4 mt-3"></div><div class="nk-gap-5"></div>
-                        <div class="nk-gap-4 mt-3"></div><div class="nk-gap-5"></div>
-                    </div>
             </div>
         </div>
+
+
     </div>
         
 
@@ -283,11 +271,14 @@
 
         
 
+
+
+
         <!--START: Footer-->  
-        
-            <footer class="nk-footer">
+    <div class="container" >
+        </div>
+            <footer class="nk-footer" id="contact">
                 <div class="nk-footer-cont">
-                    
                     <!-- <div class="nk-gap-5"></div> -->
                     <!-- <div class="row vertical-gap"> -->
                     <div class="col-lg-5" >
@@ -331,6 +322,7 @@
             </footer>
             <!-- END: Footer -->
     </div>
+</div>
 
 
 

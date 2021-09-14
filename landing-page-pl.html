@@ -214,14 +214,12 @@
 
         
         <!-- START: About Me -->
-        <div class="bg-white" id="about">
-            <div class="container">
+        <div class="nk-gap-4 mt-9"></div><div class="nk-gap-4 mt-9"></div>
+            <div class="container" id="about">
                 <div class="row">
-                    <div class="col-lg-8 offset-lg-2 text-xs-center">
+                        <div class="text-xs-center sections col-lg-8 offset-lg-2">
                         <!-- to autoscroll to the right moment -->
-                        <div class="nk-gap-4 mt-9"></div><div class="nk-gap-4 mt-9"></div>
-
-                        <h2 class="display-4">Cześć, jestem Mateusz</h2>
+                        <h2 class="display-4 text-xs-left">Cześć, jestem Mateusz</h2>
                         <img src="assets/images/about-me-photo.JPG" alt="" style="margin-right: 3%;" width="150"  class="nk-img-fit" align="left">
                         <div class="nk-gap mnt-5"></div>
                         <h3 class="display-5">O mnie</h3>
@@ -236,7 +234,7 @@
                                 <div class="panel-group">
                                 <div class="panel panel-default">
                                   <div class="panel-heading" role="tab" id="headingOne">
-                                    <h4 class="panel-title">
+                                    <h4 class="display-5 panel-title">
                                       <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                         <h3 class="display-5">Cechy charakteru</h3>
                                       </a>
@@ -256,7 +254,7 @@
                                 </div>
                                 <div class="panel panel-default">
                                   <div class="panel-heading" role="tab" id="headingTwo">
-                                    <h4 class="panel-title">
+                                    <h4 class="display-5 panel-title">
                                       <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <h3 class="display-5">Umiejętności</h3>
                                       </a>
@@ -385,16 +383,27 @@
                                             </a>
                                         </h4>
                                     </div>
-                                        <div id="collapse-six" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-six">
+                                    <div id="collapse-six" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-six">
                                         <div class="panel-body">
                                             <p class="text-xs-left">
-                                                Certyfikat z języka Angielskiego na poziomie B2 - Certyfikat AGH
+                                                    <b>- Dyplom ukończenia studiów wyższych na poziomie licencjata </b> <br>
+                                                    - Ukończenie kursu: 
+                                                    <a target="_blank" href="https://www.coursera.org/learn/user-experience-design/home/welcome">
+                                                        Introduction to User Experience Design  from Georgia Tech
+                                                    </a><br>
+                                                    - Ukończenie kursu: <a target="_blank" href="https://www.udemy.com/course/ui-ux-web-design-using-adobe-xd/">
+                                                        User Experience Design Essentials - Adobe XD UI UX Design from Daniel Wolter Scott
+                                                    </a><br>
+                                                    - Certyfikat z języka Angielskiego na poziomie B2 - Certyfikat AGH
                                             </p> 
                                         </div>
-                                        </div>
+                                    </div>
                                 </div>
-                                </div>
-                              <!-- </div> -->
+                                <div class="button-download-resume">
+                                        <a href="CV M. Zańko PL.pdf" download>
+                                            Pobierz CV
+                                        </a> 
+                                    </div>
                               </div>
                             </div>
 
@@ -407,24 +416,12 @@
         </div>
         <!-- END: About Me -->
 
-        <!-- START: Features -->
-        <div class="nk-box bg-dark-1 text-white">
-            <div class="bg-image bg-image-parallax" style="background-image: url('assets/images/bg-pattern.JPG');"></div>
-            <div class="container">
-                <div class="elements-center-align">
-                    <img class="img-nohovering download-fit" src="assets/images/download_100px_rounded-PL.svg">
-                    <a target="_blank" href="https://drive.google.com/file/d/1hzpqh-TyQX7YVWGUSoYO2rkaNQIR8kdy/view?usp=sharing">
-                        <img class="img-hovering download-fit" src="assets/images/download_100px_rounded_light-PL.svg" >
-                    </a>    
-                </div>
-            </div>
-            
-        </div>
-        <!-- END: Features -->
 
         <!-- START: Portfolio -->
-        <div class="nk-box bg-white" id="portfolio">
-            <div class="nk-gap-4 mt-5"></div><div class="nk-gap-4 mt-5"></div>
+        <div class="nk-gap-4 mt-5"></div>
+        <div class="container">
+            <div class="row">
+                <div class="nk-box col-lg-8 offset-lg-2 sections" id="portfolio" style="clear:both;">
 
             <h2 class="text-xs-center display-4">Portfolio</h2>
 
@@ -441,183 +438,104 @@
 
             <div class="nk-gap-2 mt-12"></div>
             <div class="container">
-                <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols">
-                    <div class="nk-isotope-item" data-filter="Photography">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a href="portfolio-single-pracalicencjacka-pl.html" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/praca-licencjacka-small.png');"></div>
+                <a href="portfolio-single-pracalicencjacka-pl.html">
+                    <div class="row portfolio-item">
+                        <div class="col-sm-4 offset-lg-0 portfolio-item-left-side">
+                            <h6>Projekt strony internetowej dla zakładu zegarmistrzowsko-ślusarskiego</h6>
+                            <div class="portfolio-project-type" >Praca Licencjacka | UX Design</div>
+                            06.2021
+                            <div style="margin-left:auto;">
+                                <img class='nk-img-fit-025x' src="assets/images/icon-figma.png">
                             </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h6 class="portfolio-item-title h4"> Projekt strony internetowej dla zakładu zegarmistrzowsko-ślusarskiego <br>(Praca Licencjacka)</h6>
-                                    <div class="portfolio-item-category">ZAKOŃCZONO 06.2021</div>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="text-xs-center after-hover-box">
+                            <img class='nk-img-fit-15x' src="assets/images/praca-licencjacka-small.png">
                         </div>
                     </div>
-                    <div class="nk-isotope-item" data-filter="Photography">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a href="portfolio-single-meble-pl.html" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/meble-small.png');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h4">Internetowy sklep meblowy Maynooth </h2>
-                                    <div class="portfolio-item-category">ZAKOŃCZONO 02.2021</div>
-                                </div>
+                </a>
+                <a href="portfolio-single-meble-pl.html">
+                    <div class="row portfolio-item">
+                        <div class="col-sm-4 offset-lg-0 portfolio-item-left-side">
+                            <h6>Internetowy sklep meblowy Maynooth</h6>
+                            <div class="portfolio-project-type" >Projekt w ramach kursu Online | UI Design</div>
+                            02.2021
+                            <div style="margin-left:auto;">
+                                <img class='nk-img-fit-025x' src="assets/images/icon-xd.png">
                             </div>
                         </div>
-                    </div> 
-                    <div class="nk-isotope-item" data-filter="Mockup">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a href="portfolio-single-ekoshop-pl.html" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/ekoshop-small.png');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h4">                 
-                                        Redesign strony eko sklepu.
-                                    </h2>
-                                    <div class="portfolio-item-category">Zakończono: 12.2020</div>
-                                </div>
-                            </div>
+                        <div class="text-xs-center after-hover-box">
+                            <img class='nk-img-fit-15x' src="assets/images/meble-small.png">
                         </div>
                     </div>
-                    <div class="nk-isotope-item" data-filter="Mockup">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a href="portfolio-single-biblioteka-pl.html" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/biblioteka-small.png');"></div>
+                </a>
+                <a href="portfolio-single-ekoshop-pl.html">
+                    <div class="row portfolio-item">
+                        <div class="col-sm-4 offset-lg-0 portfolio-item-left-side">
+                            <h6>Redesign strony eko sklepu</h6>
+                            <div class="portfolio-project-type" >Projekt na studia | UX Design</div>
+                            12.2020
+                            <div style="margin-left:auto;">
+                                <img class='nk-img-fit-025x' src="assets/images/icon-figma.png">
+                                <img class='nk-img-fit-025x' src="assets/images/icon-axure.png">
                             </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h4">                 
-                                        Landing Page Biblioteki z rejestracją. 
-                                    </h2>
-                                    <div class="portfolio-item-category">Zakończono: 10.2020</div>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="text-xs-center after-hover-box">
+                            <img class='nk-img-fit-15x' src="assets/images/ekoshop-small.png">
                         </div>
                     </div>
-
-
-                    <!-- <div class="nk-isotope-item" data-filter="Print">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a href="portfolio-single-seniorzy-pl.html" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/seniorzy-small.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h4">CODZIENNA POMOC SENIOROM</h2>
-                                    <div class="portfolio-item-category">Zakończono: 08.2020</div>
-                                </div>
+                </a>
+                <a href="portfolio-single-biblioteka-pl.html">
+                    <div class="row portfolio-item">
+                        <div class="col-sm-4 offset-lg-0 portfolio-item-left-side">
+                            <h6>Landing Page Biblioteki z rejestracją</h6>
+                            <div class="portfolio-project-type" >Ćwiczenie | UI Design</div>
+                            10.2020
+                            <div style="margin-left:auto;">
+                                <img class='nk-img-fit-025x' src="assets/images/icon-figma.png">
+                                <img class='nk-img-fit-025x' src="assets/images/icon-axure.png">
                             </div>
                         </div>
-                    </div> -->
-
-
-                    <div class="nk-isotope-item" data-filter="Branding">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a href="portfolio-single-automat-pl.html" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/automat-biletowy-small.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h4">
-                                        Biletomat - Filharmonia Szczecińska
-                                    </h2>
-                                    <div class="portfolio-item-category">Zakończono: 05.2020</div>
-                                </div>
-                            </div>
+                        <div class="text-xs-center after-hover-box">
+                            <img class='nk-img-fit-15x' src="assets/images/biblioteka-small.png">
                         </div>
                     </div>
-
-
-                    <div class="nk-isotope-item" data-filter="Design">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a href="portfolio-single-ninateka-pl.html" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/ninateka-small.JPG');"></div>
+                </a>
+                <a href="portfolio-single-automat-pl.html">
+                    <div class="row portfolio-item">
+                        <div class="col-sm-4 offset-lg-0 portfolio-item-left-side">
+                            <h6>Biletomat - Filharmonia Szczecińska</h6>
+                            <div class="portfolio-project-type" >Projekt na studia | UI Design</div>
+                            05.2020
+                            <div style="margin-left:auto;">
+                                    <img class='nk-img-fit-025x' src="assets/images/icon-axure.png">
                             </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h4">
-                                        Aplikacja SmartTV - NinatekaTV
-                                    </h2>
-                                    <div class="portfolio-item-category">Zakończono: 04.2020</div>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="text-xs-center after-hover-box">
+                                <img class='nk-img-fit-15x' src="assets/images/automat-biletowy-small.png">
                         </div>
                     </div>
-
-
-                    <!-- <div class="nk-isotope-item" data-filter="Design">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a href="portfolio-single-pizzahut-pl.html" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/pizzaHUT-small.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h4">
-                                        Aplikacja Smartwatch - PizzaHUT
-                                    </h2>
-                                    <div class="portfolio-item-category">Zakończono: 03.2020</div>
-                                </div>
+                </a>
+                <a href="portfolio-single-ninateka-pl.html">
+                    <div class="row portfolio-item">
+                        <div class="col-sm-4 offset-lg-0 portfolio-item-left-side">
+                            <h6>Aplikacja SmartTV - NinatekaTV</h6>
+                            <div class="portfolio-project-type" >Projekt na studia | UI Design</div>
+                            04.2020
+                            <div style="margin-left:auto;">
+                                    <img class='nk-img-fit-025x' src="assets/images/icon-axure.png">
                             </div>
                         </div>
-                    </div> -->
-
-
-                    <!-- <div class="nk-isotope-item" data-filter="Print">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a href="portfolio-single-sor-pl.html" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/sor-small.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h4">
-                                        Poprawa jakości wizyty na SOR
-                                    </h2>
-                                    <div class="portfolio-item-category">Zakończono: 02.2020</div>
-                                </div>
-                            </div>
+                        <div class="text-xs-center after-hover-box">
+                                <img class='nk-img-fit-15x' src="assets/images/ninateka-small.JPG">
                         </div>
-                    </div> -->
-
-                    
-
-                
-                    <!-- <div class="nk-isotope-item" data-filter="Branding">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a href="portfolio-single-roomate-pl.html" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/roomate-small.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h4">
-                                        Wsparcie w poszukaniu współlokatora - Roomate</h2>
-                                    <div class="portfolio-item-category">Zakończono: 10.2019</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    
-
-                    
-
+                    </div>
+                </a>
                 </div>
             </div>
+        </div>
             <div class="nk-gap-4 mt-15"></div>
-        </div> 
+            </div> 
+        </div>
         <!-- END: Portfolio -->
 
         <!-- START: Reviews -->
