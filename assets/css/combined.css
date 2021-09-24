@@ -8583,17 +8583,7 @@ width: 8px;
     align-items: center;
     justify-content: left;
 }
-body::after {
-    content:"";
-    display: block;
-    width: 110%;
-    height: 125vh;
-    background: radial-gradient(#222, #000);
-    position: absolute;
-    z-index: -1;
-    transform: rotate(20deg);
-    border-radius: 50%;
-}
+
 .cv-photo{
     border-radius: 14px;
 }
